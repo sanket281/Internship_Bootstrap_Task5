@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- my css -->
+    <link rel="stylesheet" href="./Assets/CSS/styles.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/882c6aa828.js" crossorigin="anonymous"></script>
+    <!-- my javascrypt -->
+    <script src="./Assets/javascript/scrypt.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body class="inter-body">
+    <div class="container-fluid" style="background-color: #F5F7FA;" >
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fs-5 fw-medium" style="width: 75%; margin: auto; background-color: #F5F7FA;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./Assets/images/Nexcent-logo.png" alt="" style="width: 110%;"></a>
+                  <a class="navbar-brand" href="#"><img src="./Assets/images/Nexcent-image.png" alt="" style="width: 110px;"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 text-center">
+                      <li class="nav-item mx-4">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link active" aria-current="page" href="#">Service</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link active" aria-current="page" href="#">Feature</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link active" aria-current="page" href="#">Product</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link active" aria-current="page" href="#">Testimonial</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+                      </li>  
+                    </ul>
+                    <div class="d-flex justify-content-center justify-content-lg-end flex-column flex-lg-row">
+                        <button class="btn login-btn fs-5 fw-medium">Login</button>
+                        <button class="btn login-btn fs-5 fw-medium" >Sign Up</button> 
+                    </div>   
+                </div>
+                </div>
+              </nav>
+
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container-fluid mb-5" style="width: 75%; margin: auto;">
+                        <div class="row mt-md-5">
+                            <div class="col-lg-6 col-12 order-lg-1 order-2 d-flex align-items-center mb-5">
+                                <div class="row mb-md-5 mt-5 ms-md-3 d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                                    <h1 class=" fw-bold p-0" style="font-size: 60px;">
+                                        Lessons and insights 
+                                    </h1>
+                                    <h1 class=" fw-bold p-0" style="color: #4CAF4F; font-size: 60px;">
+                                        from 8 years
+                                    </h1>
+                                    <p class="mt-2 p-0">
+                                        Where to grow your business as a photographer: site or social media?
+                                    </p>
+                                    <button class="btn fs-5 fw-medium mt-2" style="color: white; background-color: #4CAF4F; width: 8rem;">Register</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 order-lg-2 order-1 mb-5">
+                                <div class="row mb-md-5 mt-5">
+                                    <div class="container d-flex justify-content-center justify-content-lg-end">
+                                        <img class="img-fluid" src="./Assets/images/header-image.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container-fluid mb-5" style="width: 75%; margin: auto;">
+                        <div class="row mt-md-5">
+                            <div class="col-lg-6 col-12 order-lg-1 order-2 d-flex align-items-center mb-5">
+                                <div class="row mb-md-5 mt-5 ms-md-3 d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                                    <h1 class=" fw-bold p-0" style="font-size: 60px;">
+                                        Lessons and insights 
+                                    </h1>
+                                    <h1 class=" fw-bold p-0" style="color: #4CAF4F; font-size: 60px;">
+                                        from 8 years
+                                    </h1>
+                                    <p class="mt-2 p-0">
+                                        Where to grow your business as a photographer: site or social media?
+                                    </p>
+                                    <button class="btn fs-5 fw-medium mt-2" style="color: white; background-color: #4CAF4F; width: 8rem;">Register</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 order-lg-2 order-1 mb-5">
+                                <div class="row mb-md-5 mt-5">
+                                    <div class="container d-flex justify-content-center justify-content-lg-end">
+                                        <img class="img-fluid" src="./Assets/images/header-image.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container-fluid mb-5" style="width: 75%; margin: auto;">
+                        <div class="row mt-md-5">
+                            <div class="col-lg-6 col-12 order-lg-1 order-2 d-flex align-items-center mb-5">
+                                <div class="row mb-md-5 mt-5 ms-md-3 d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                                    <h1 class=" fw-bold p-0" style="font-size: 60px;">
+                                        Lessons and insights 
+                                    </h1>
+                                    <h1 class=" fw-bold p-0" style="color: #4CAF4F; font-size: 60px;">
+                                        from 8 years
+                                    </h1>
+                                    <p class="mt-2 p-0">
+                                        Where to grow your business as a photographer: site or social media?
+                                    </p>
+                                    <button class="btn fs-5 fw-medium mt-2" style="color: white; background-color: #4CAF4F; width: 8rem;">Register</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12 order-lg-2 order-1 mb-5">
+                                <div class="row mb-md-5 mt-5">
+                                    <div class="container d-flex justify-content-center justify-content-lg-end">
+                                        <img class="img-fluid" src="./Assets/images/header-image.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+              
+
+
+        </header>
+    </div>  
+        <main>
+            <section class="s2">
+                <div class="container-fluid">
+                    <div class="row  text-center mt-5" style="width: 75%; margin: auto;">
+                        <h1 class="fw-bold">Our Clients</h1>
+                        <p>We have been working with some Fortune 500+ clients</p>
+                    </div>
+                    <div class="row d-flex flex-row justify-content-between mt-4 image-slider" style="margin: auto; width: 75%; ">
+                        
+                        <div class="image-container">
+
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s11.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s12.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s13.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s14.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s15.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s16.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s17.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s11.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s12.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s13.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s14.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1  d-flex justify-content-center">
+                                <div class="row ms-5">
+                                    <img src="./Assets/images/s15.png" alt="">
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s2">
+                <div class="containet-fluid mt-5">
+                    <div class="row  text-center mt-md-5" style="width: 75%; margin: auto;">
+                        <h1 class="fw-bold" >Manage your entire community<br>in a single system</h1>
+                        <p class="mt-2">
+                            Who is Nextcent suitable for?
+                        </p>
+                    </div>
+                    <div class="row mt-4 mb-5" style="width: 75%; margin: auto;">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="row mt-3">
+                                <div class="container text-center d-flex justify-content-center flex-column align-items-center p-2" >
+                                    <img src="./Assets/images/s21.png" alt="" style="width: 6rem;">
+                                    <h1 class="mt-3">Membership Organisations</h1>
+                                    <p class="mt-3">Our membership management software provides full automation of membership renewals and payments</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="row mt-3">
+                                <div class="container text-center d-flex justify-content-center flex-column align-items-center p-2">
+                                    <img src="./Assets/images/s22.png" alt="" style="width: 6rem;">
+                                    <h1 class="mt-3">National Associations</h1>
+                                    <p class="mt-3">Our membership management software provides full automation of membership renewals and payments</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="row mt-3">
+                                <div class="container text-center d-flex justify-content-center flex-column align-items-center p-2" >
+                                    <img src="./Assets/images/s23.png" alt="" style="width: 6rem;">
+                                    <h1 class="mt-3">Clubs And Groups</h1>
+                                    <p class="mt-3">Our membership management software provides full automation of membership renewals and payments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s3">
+                <div class="container-fluid">
+                    <div class="row mb-md-5" style="width: 75%; margin: auto;">
+                        <div class="col-lg-5 col-md-6 d-flex align-items-center justify-content-center">
+                            <div class="row mt-5">
+                                <img src="./Assets/images/s31.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6 d-flex align-items-center justify-content-center justify-content-md-start">
+                            <div class="row d-flex mt-5 justify-content-center justify-content-md-start text-center text-md-start" style="width: 80%;">
+                                <h1 class="p-0 ">
+                                    The unseen of spending three years at Pixelgrade
+                                </h1>
+                                <p class="p-0">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+                                </p>
+                                <button class="btn" style="background-color: #4CAF4F; color: white; width: 8rem; height: 51px;">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s4">
+                <div class="container-fluid pb-3" style="margin-top: 5rem; background-color: #F5F7FA;">
+                    <div class="row" style="width: 70%; margin: auto;">
+                        <div class="col-lg-6 col-12 d-flex align-items-center mt-5 mb-5">
+                            <div class="row text-center text-lg-start">
+                                <h1 class="fw-bold">
+                                    Helping a local
+                                </h1>
+                                <h1 class="fw-bold" style="color: #4CAF4F;">
+                                    business reinvent itself
+                                </h1>
+                                <p class="fw-bold mt-3">
+                                    We reached here with our hard work and dedication
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 mb-lg-5 mt-lg-5 ">
+                            <div class="row d-flex justify-content-center mt-4">
+                                <div class="col-5 d-flex justify-content-end align-items-center ">
+                                    <img src="./Assets/images/s41.png" class="me-3" alt="">
+                                </div>
+                                <div class="col-7 ">
+                                    <h1>
+                                        2,245,341
+                                    </h1>
+                                    <p>
+                                        Members
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5 d-flex justify-content-end align-items-center">
+                                    <img src="./Assets/images/42.png" class="me-3" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <h1>
+                                        828,867
+                                    </h1>
+                                    <p>
+                                        Event Bookings
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 mb-lg-5 mt-lg-5">
+                            <div class="row mt-4">
+                                <div class="col-5 d-flex justify-content-end align-items-center">
+                                    <img src="./Assets/images/s43.png" class="me-3" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <h1>
+                                        46,328
+                                    </h1>
+                                    <p>
+                                        Clubs
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5 d-flex justify-content-end align-items-center">
+                                    <img src="./Assets/images/s44.png" class="me-3" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <h1>
+                                        1,926,436
+                                    </h1>
+                                    <p>
+                                        Payments
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s5">
+                <div class="container-fluid">
+                    <div class="row mb-md-5" style="width: 75%; margin: auto;">
+                        <div class="col-lg-5 col-md-6 d-flex align-items-center justify-content-center">
+                            <div class="row mt-5">
+                                <img src="./Assets/images/s51.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6 d-flex align-items-center justify-content-center justify-content-md-start">
+                            <div class="row d-flex mt-5 justify-content-center justify-content-md-start text-center text-md-start pb-4" style="width: 80%;">
+                                <h1 class="p-0 ">
+                                    How to design your site footer like we did
+                                </h1>
+                                <p class="p-0">
+                                    Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
+                                </p>
+                                <button class="btn" style="background-color: #4CAF4F; color: white; width: 8rem; height: 51px;">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s6">
+                <div class="container-fluid " style="background-color: #F5F7FA;">
+                    <div class="row mb-md-5" style="width: 75%; margin: auto;">
+                        <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end">
+                            <div class="row mt-4">
+                                <img src="./Assets/images/s61.png" style="width: 25rem;" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-6 d-flex align-items-center justify-content-center justify-content-md-start flex-column">
+                            <div class="row d-flex mt-5 justify-content-center justify-content-md-start text-center text-md-start" style="width: 80%;">
+                                
+                                <p class="p-0">
+                                    Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+                                </p>
+                                <h5 class="p-0 " style="color: #4CAF4F;">
+                                    Tim Smith
+                                </h5>
+                                <p class="p-0">
+                                    British Dragon Boat Racing Association
+                                </p>
+                            </div>
+                            <div class="row d-flex mt-3 justify-content-center justify-content-md-between text-center text-md-start" style="width: 80%;">
+                                <div class="col-lg-1 col-6 d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="row mt-lg-0 mt-4">
+                                        <img src="./Assets/images/s62.png" alt="" class="p-0">
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-6 d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="row mt-lg-0 mt-4">
+                                        <img src="./Assets/images/s63.png" alt="" class="p-0">
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-6 d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="row mt-lg-0 mt-4">
+                                        <img src="./Assets/images/s64.png" alt="" class="p-0">
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-6 d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="row mt-lg-0 mt-4">
+                                        <img src="./Assets/images/s65.png" alt="" class="p-0">
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-6 d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="row mt-lg-0 mt-4">
+                                        <img src="./Assets/images/s66.png" alt="" class="p-0">
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-6 d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="row mt-lg-0 mt-4">
+                                        <img src="./Assets/images/s67.png" alt="" class="p-0">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12 d-flex align-items-center justify-content-center justify-content-md-start">
+                                    <div class="row mt-lg-0 mt-4 d-flex flex-row">
+                                        <h5 class="p-0 m-0 d-flex flex-lg-row flex-column" style="color: #4CAF4F;">
+                                            Meet all customers      
+                                            <i class="fa-solid fa-arrow-right" style="color: #4CAF4F; margin-left: 5px;"></i>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s7">
+                <div class="container-fluid">
+                        <div class="row text-center mt-md-5 d-flex justify-content-center" style="width: 75%; margin: auto;">
+                            <div class="col-lg-6 col-10 d-flex justify-content-center flex-column">
+                                <h1 class="fw-bold" >Caring is the new marketing</h1>
+                                <p class="mt-2">
+                                    The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row" style="width: 75%; margin: auto;">
+                            <div class="col-lg-4 col-12">
+                                <div class="row">
+                                    <div class="container d-flex justify-content-center rounded-3" style="background-image: url(./Assets/images/s71.jpg); height: 20rem; width: 95%; background-size: cover; margin-bottom: 8rem;">
+                                        <div class="container rounded-4" style="min-height: 12rem; height: auto; width: 95%;  background-color: #F5F7FA; margin-top: 15rem; box-shadow: 0px 4px 15px #0000003d; ">
+                                            <div class="row text-center fw-bold mt-3 mx-2 d-flex align-items-center" style="font-size: 18px; height: 70%;">
+                                                <p style="color: #717171;">
+                                                    Creating Streamlined Safeguarding Processes with OneRen
+                                                </p>
+                                            </div>
+                                            <div class="row text-center fw-bold" style="font-size: 18px; height: 30%">
+                                                <p style="color: #4CAF4F;">
+                                                    Readmore
+                                                    <i class="fa-solid fa-arrow-right" style="color: #4CAF4F; margin-left: 5px;"></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="row ">
+                                    <div class="container d-flex justify-content-center rounded-3" style="background-image: url(./Assets/images/s72.jpg); height: 20rem; width: 95%; background-size: cover; margin-bottom: 8rem;">
+                                        <div class="container rounded-4" style="min-height: 12rem; height: auto; width: 95%;  background-color: #F5F7FA; margin-top: 15rem; box-shadow: 0px 4px 15px #0000003d; ">
+                                            <div class="row text-center fw-bold mt-3 mx-2 d-flex align-items-center" style="font-size: 18px; height: 70%;">
+                                                <p style="color: #717171;">
+                                                    What are your safeguarding responsibilities and how can you manage them?
+                                                </p>
+                                            </div>
+                                            <div class="row text-center fw-bold" style="font-size: 18px; height: 30%;">
+                                                <p style="color: #4CAF4F;">
+                                                    Readmore
+                                                    <i class="fa-solid fa-arrow-right" style="color: #4CAF4F; margin-left: 5px;"></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <div class="row">
+                                    <div class="container d-flex justify-content-center rounded-3" style="background-image: url(./Assets/images/s73.jpg); height: 20rem; width: 95%; background-size: cover; margin-bottom: 8rem;">
+                                        <div class="container rounded-4" style="min-height: 12rem; height: auto; width: 95%;  background-color: #F5F7FA; margin-top: 15rem; box-shadow: 0px 4px 15px #0000003d; ">
+                                            <div class="row text-center fw-bold mt-3 mx-2 d-flex align-items-center" style="font-size: 18px; height: 70%;">
+                                                <p style="color: #717171;">
+                                                    Revamping the Membership Model with Triathlon Australia
+                                                </p>
+                                            </div>
+                                            <div class="row text-center fw-bold" style="font-size: 18px; height: 30%;">
+                                                <p style="color: #4CAF4F;">
+                                                    Readmore
+                                                    <i class="fa-solid fa-arrow-right" style="color: #4CAF4F; margin-left: 5px;"></i>
+                                                </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                                       
+                </div>
+            </section>
+            <section class="s8">
+                <div class="container-fluid mt-5" style="background-color: #F5F7FA;">
+                    <div class="row text-center d-flex align-items-center justify-content-center pt-5 pb-5">
+                        <h1>
+                            Pellentesque suscipit<br>fringilla libero eu.
+                        </h1>
+                        <button class="btn d-flex flex-row align-items-center justify-content-center mt-4" style="background-color: #4CAF4F; color: white; width: 10rem; height: 51px;">Get a Demo<i class="fa-solid fa-arrow-right" style=" margin-left: 5px;"></i></button>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <footer>
+            <div class="container-fluid" style="background-color: #263238; color: white;">
+                <div class="row py-5" style="width: 75%; margin: auto;">
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="row d-flex justify-content-center text-center text-lg-start">
+                            <div class="container pb-5">
+                                <img class="me-3" src="./Assets/images/Nexcent-logo.png" alt="" style="width: 3rem">
+                                <img src="./Assets/images/Nexcent.png" alt="" style="width: 10rem;">
+                            </div>
+                            <p>Copyright © 2020 Nexcent ltd.</p>
+                            <p>All rights reserved</p>
+                            <div class="container d-flex flex-row pt-4 justify-content-center justify-content-lg-start">
+                                <img src="./Assets/images/footer1.png" alt="">
+                                <img src="./Assets/images/footer2.png" alt="">
+                                <img src="./Assets/images/footer3.png" alt="">
+                                <img src="./Assets/images/footer4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="row d-flex justify-content-center text-center mt-5 mt-md-0 text-lg-start">
+                            <div class="container">
+                                <h3 class="pb-4">Company</h3>
+                                <p>About us</p>
+                                <p>Blog</p>
+                                <p>Contact us</p>
+                                <p>Pricing</p>
+                                <p>Testimonials</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="row d-flex justify-content-center text-center mt-5 mt-lg-0 text-lg-start">
+                            <div class="container">
+                                <h3 class="pb-4">Support</h3>
+                                <p>Help center</p>
+                                <p>Terms of services</p>
+                                <p>Legal</p>
+                                <p>Privacy policy</p>
+                                <p>Status</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="row d-flex justify-content-center text-center text-lg-start mt-5 mt-lg-0">
+                            <div class="container">
+                                <h3 class="pb-4">Stay up to date</h3>
+                                <form action="" class="d-flex flex-row justify-content-center justify-content-lg-start">
+                                    <input type="email" placeholder="Your email address" style="color: white;">
+                                    <button><img src="./Assets/images/footer5.png" alt=""></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- <div class="container" style="height: 20rem;">
+            <div class="slider-container">
+                <div class="slider">
+                    
+                    <img src="./Assets/images/s21.png" alt="Image 1">
+                    <img src="./Assets/images/s22.png" alt="Image 2">
+                    <img src="./Assets/images/s23.png" alt="Image 3">
+                    <img src="./Assets/images/s21.png" alt="Image 1">
+                    <img src="./Assets/images/s22.png" alt="Image 2">
+                    <img src="./Assets/images/s23.png" alt="Image 3">
+                    <img src="./Assets/images/s21.png" alt="Image 1">
+                    <img src="./Assets/images/s22.png" alt="Image 2">
+                    <img src="./Assets/images/s23.png" alt="Image 3">
+                    <img src="./Assets/images/s21.png" alt="Image 1">
+                    <img src="./Assets/images/s22.png" alt="Image 2">
+                    <img src="./Assets/images/s23.png" alt="Image 3">
+                    
+                </div>
+            </div>
+
+        </div> -->
+  
+</body>
+</html>

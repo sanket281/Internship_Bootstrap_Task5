@@ -1,0 +1,92 @@
+
+.inter-body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+.login-btn{
+    color: #4CAF4F !important;
+    background-color: white;
+}
+.login-btn:hover{
+    color: white !important;
+    background-color: #4CAF4F !important;
+}
+.s2 img{
+    width: 10rem;
+}
+.s2 .container{
+    width: 69%;
+    border: 1px solid rgba(128, 128, 128, 0.216);
+    box-shadow: 3px 3px 3px #0000001f;
+    padding: 33px 23px;
+}
+.s4 h1{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+}
+.s4 p{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+}
+footer input{
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 10px 0px 0px 10px !important;
+    padding: 7px;
+}
+footer button{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 0px 10px 10px 0px !important;
+    border: none;
+    padding-inline: 8px;
+}
+
+.image-container {
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: moveContainer 10s linear infinite; 
+    display: flex;
+   
+}
+.image-container-wrapper {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+.image-container img {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+@keyframes moveContainer {
+    0% {
+        transform: translateX(100%); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
+.slider-container {
+    overflow: hidden; /* Hide overflow */
+    width: 100%; /* Set width of container */
+}
+
+.slider {
+    white-space: nowrap; /* Prevents images from wrapping */
+    display: inline-block; /* Display images in a row */
+}
+
+.slider img {
+    display: inline-block; /* Display images in a row */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: top; /* Align images to the top */
+    margin-right: -4px; /* Remove gap between images */
+}
